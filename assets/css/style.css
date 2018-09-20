@@ -1,27 +1,35 @@
 button, div, form, input {
-	margin: 5px;
+    margin: 5px;
+
 }
 
 img {
 	max-width: 200px;
-	max-height: 200px;
+    max-height: 200px;
+
 }
 
 label {
     color: rgb(1, 214, 252);
     text-shadow: 2px 1px rgb(1, 5, 5);
+
 }
 
 .btn-default {
     color: #000;
     font-size: medium;
+        box-shadow: 10px 5px 20px 2px black;
+
 }
 
 body {
 	background-image: url("../images/back.jpg");
-    font-family: 'Baloo', cursive;
+    font-family: 'Baloo';
     background-repeat: no-repeat;
     background-size: cover;
+    font-size: x-large;
+    width: 100%;
+    
 }
 
 .holder {
@@ -30,6 +38,20 @@ body {
 
 .jumbotron {
     text-align: center;
+    top: 30%;;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0.8;
+    position: relative;
+    width: 100%;
+    padding: 0;
+    box-shadow: 10px 5px 20px 2px black;
+    /* text-shadow: 1px 2px 3px black; */
+    /* color: rgb(0, 11, 107); */
+    background-size: cover;
+
+  }
 }
 
 
